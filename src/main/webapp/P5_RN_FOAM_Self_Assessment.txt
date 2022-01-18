@@ -1,0 +1,18 @@
+Self Assessment
+Coding -
+I first planned out how I was going to implement the grid and the marks. Then I decided how turns would be decided.
+Then I implemented the grid, marks, and turns in a Game class. I then noted functionalities that the game would need and made place holder
+methods that were later implemented.
+
+Testing - 
+I made a JUnit test initially to see if I was able to place a mark in a non valid space. After I confirmed that you could not place the mark
+I implemented the user Interface.
+
+User interface design - 
+I followed the design in the p5 document pretty closely, only changing things slightly. I used css to style the spaces and buttons to look
+the same. I also made a display to show the score of both dark and light marks. The game also has a quit button that would reset the marks.
+
+Overall - 
+The code turned out functional. However, when implementing the code I stuck with my initial implementation which uses an array.
+This meant that I had to do a bunch of computations to figure out placements. This process wasnt too bad since it was just an 8 x 8. I think
+overall I think my submission meets the requirements.

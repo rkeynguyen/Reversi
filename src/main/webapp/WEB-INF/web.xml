@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GameServlet</servlet-name>
+    <servlet-class>edu.metrostate.ics425.p5.rn1802.controller.GameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GameServlet</servlet-name>
+    <url-pattern>/Game</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Game</welcome-file>
+  </welcome-file-list>
+</web-app>
